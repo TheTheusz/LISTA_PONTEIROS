@@ -1,0 +1,1 @@
+p4 = vetor indica que p4 esta recebendo o primeiro endereço do vetor. Portanto, idade = *p4 faz com que a variável idade receba o conteúdo do endereço de p4, ou seja, o primeiro termo de vetor, 31. Portanto, uma resposta esperada.
