@@ -1,0 +1,1 @@
+p4 estava com o terceiro endereço do termo vetor, então quando p4 = p4 - 2 acontece, p4 "pula para trás" 2 endereços do termo vetor. Então, agora p4 tem o endereço do primeiro termo do vetor, ou seja, 31. Logo, o resultado é esperado.
