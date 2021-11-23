@@ -1,0 +1,1 @@
+p3 já estava com o endereço do quinto termo de nome, então quando a linha p3-- foi executada, p3 voltou 1 endereço, então o valor a ser impresso é justamente  o quarto termo de nome, isto é, nome[3].
