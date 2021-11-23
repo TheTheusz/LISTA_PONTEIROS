@@ -1,1 +1,1 @@
-`p5` recebe o terceiro endereço do termo `vetor` com a seguinte atribuição: `p5 = &vetor[2]`, porém ele "pula para trás" um endereço com o `-1`, então `p5`, possui o endereço do segundo termo do `vetor`, ou seja, 45.
+p5 recebe o terceiro endereço do termo vetor com a seguinte atribuição: p5 = &vetor[2], porém ele "pula para trás" um endereço com o -1, então p5, possui o endereço do segundo termo do vetor, ou seja, 45.
