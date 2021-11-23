@@ -1,0 +1,1 @@
+Apesar p3 = nome parecer errado, porque, aparentemente, um ponteiro está recebendo um array, isso não é verdade. O que acontece é que o ponteiro p3 está recebendo o endereço do primeiro termo de nome e o no printf o conteúdo do primeiro endereço é justamente o P.
