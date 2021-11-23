@@ -1,0 +1,1 @@
+O resultado impresso de `aux` é igual a P, portanto, é o resultado esperado, justamente porque `aux` recebe o conteúdo do endereço de `p3`, isto é, o primeiro termo do vetor `nome`.
