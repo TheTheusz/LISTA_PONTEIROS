@@ -1,0 +1,5 @@
+Considerando que x + 0 esteja no endereço 4092:
+Se x for declarado como char, x+1 vai ser 4093, x+2 vai ser 4094 e x+3 vai ser 4095.
+Se x for declarado como int, x+1 vai ser 4094, x+2 vai ser 4096 e x+3 vai ser 4098. Isso porque está considerando que o int ocupa 2 bytes, porém, na realidade, ele ocupa 4 bytes.
+Se x for declarado como float, x+1 vai ser 4096, x+2 vai ser 4100 e x+3 vai ser 4104.
+Se x for declarado como double, x+1 vai ser 4100, x+2 vai ser 4108 e x+3 vai ser 4116.
