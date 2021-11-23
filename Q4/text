@@ -1,0 +1,11 @@
+int i, j;
+int *p, *q;
+
+p = i; // ILEGAL — p é um ponteiro, portanto só recebe valor de endereço de memoria 
+q = &j; // LEGAL — &j é justamente o endereço de memoria, perfeito para uma variavel de ponteiro.
+p = &*&i; // LEGAL — &i é o endereço de i --> *(&i) é o conteudo do endereço de i --> &(*&i) é o endereço de i.
+i = (*&)j; // ILEGAL — & é usado para referenciar o endereço de uma variavel, portanto ele tem que anteceder uma variavel.
+i = *&j; // LEGAL — &j é o endereço de j --> *(&j) é o conteudo do endereço de j.
+i = *&*&j; // LEGAL — mesma definição da anterior.
+q = *p; // ILEGAL — q é um ponteiro, portanto não recebe outro valor sem ser um endereço de memoria
+i = (*p)++ + *q; // LEGAL — pois o i está recebendo valores int, ou seja, o conteudo das memorias.
