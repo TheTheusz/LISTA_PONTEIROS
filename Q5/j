@@ -1,0 +1,1 @@
+p5 já tinha o endereço do segundo termo, então quando p4 = p5 + 1 acontece, p4 pula 1 endereço a mais em relação ao endereço de p5. Então, agora p4 tem o endereço do terceiro termo do vetor, ou seja, 27. Logo, o resultado é esperado.
