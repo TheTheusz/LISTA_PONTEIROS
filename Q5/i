@@ -1,0 +1,1 @@
+p4 já tinha o endereço do primeiro termo, então quando p5 = p4 + 1 acontece, p5 recebe o endereço do segundo termo do vetor, 45, pois p5 pulou 1 endereço do inicial do vetor. Logo o resultado é esperado.
