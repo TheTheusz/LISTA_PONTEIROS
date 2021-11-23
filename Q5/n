@@ -1,0 +1,1 @@
+Como p5 estava com o segundo endereço do termo vetor, após a atribuição p5++, o endereço que estava guardado em p5 pula um endereço, ou seja, terceiro endereço do vetor. Portanto, o resultado é o esperado, 27.
