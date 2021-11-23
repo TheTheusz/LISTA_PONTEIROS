@@ -1,0 +1,1 @@
+A expressão que referencia o conteúdo do terceiro elemento do vetor pulo, é a primeira expressão *(pulo + 2);, pois ela tem o *, indicando que deseja o conteúdo do vetor e tem o + 2, pois, a expressão vai pular 2 endereços em relação ao primeiro endereço de pulo para pegar o conteúdo, ou seja o terceiro termo.
