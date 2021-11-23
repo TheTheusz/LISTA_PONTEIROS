@@ -1,0 +1,7 @@
+Supondo que o endereço i é 4094, o resultado que será impresso é:
+
+- p = 4094 — O conteúdo de p é justamente o endereço de i, ou seja, 4094.
+- *p+2 = 7 — *p é o conteúdo de i, ou seja, 5. Então 5 + 2 = 7.
+- **&p = 5 — &p é o endereço de p —> *(&p) é o conteúdo de p, isto é, o endereço de i.   —> Logo *(*&p) é o conteúdo de i, portanto, 5.
+- 3**p = 15 — *p é o conteúdo de i, ou seja, 5. Então 3 * 5 = 15.
+- **&p+4 = 9 — Já sabemos que **&p =  *(*&p), conteúdo de i. A resposta é 5 + 4 = 9
