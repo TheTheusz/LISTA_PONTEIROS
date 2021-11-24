@@ -1,0 +1,1 @@
+Foi possível perceber que o tempo gasto para executar o programa é levemente mais rápido no código que utiliza a função qsort. Após realizar o teste, percebeu que a diferença entre os tempos é em média 60ms.
